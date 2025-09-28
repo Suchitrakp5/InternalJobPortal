@@ -1,0 +1,72 @@
+/* src/modules/JobPosting.css */
+
+/* Full container (now flexes inside .content) */
+.job-posting-page {
+  height: 100%;   /* fill parent (content area) */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f9fafb; /* light gray background */
+  overflow: auto; /* allow scroll if needed */
+  padding: 3rem 2rem 2rem 2rem;
+  box-sizing: border-box;
+}
+
+/* White card for the form */
+.job-form-card {
+  /* background: #fff; */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+  margin-top: 2rem;
+}
+
+.job-form-card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  text-align: center;
+  color: #1e40af;
+  font-weight: 700;
+  border-bottom: 3px solid #e5e7eb;
+  padding-bottom: 0.75rem;
+}
+
+/* Label styling */
+.job-form-card label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.9rem;
+}
+
+.job-form-card input,
+.job-form-card textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.job-form-card button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.job-form-card button:hover {
+  background-color: #1e40af;
+}

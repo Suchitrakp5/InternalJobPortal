@@ -1,0 +1,41 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width:100vw;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.welcome-text {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.welcome-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.welcome-btn {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.login-btn {
+  background-color: #007bff;
+}
+
+.register-btn {
+  background-color: #28a745;
+}

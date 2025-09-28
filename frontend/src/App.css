@@ -1,0 +1,13 @@
+h1{
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  color: blue;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}

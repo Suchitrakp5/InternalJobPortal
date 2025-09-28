@@ -1,0 +1,108 @@
+
+.applications-page1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  padding-top: 100px;
+}
+
+.applications-title1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.no-applications1 {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+}
+
+.applications-list1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+}
+
+.application-card1 {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.application-card1:hover {
+  transform: translateY(-5px);
+}
+
+.application-header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.application-header1 h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.status-badge1 {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status-badge1.pending {
+  background: #fff4e5;
+  color: #f57c00;
+}
+
+.status-badge1.approved {
+  background: #e6f4ea;
+  color: #2e7d32;
+}
+
+.status-badge1.rejected {
+  background: #fdecea;
+  color: #c62828;
+}
+
+.application-details1 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.application-actions1 {
+  text-align: right;
+}
+
+.delete-btn1 {
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.delete-btn1:hover {
+  background: #d9363e;
+}
+.applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* ✅ Responsive columns */
+  gap: 20px; /* spacing between cards */
+}
+
